@@ -16,5 +16,6 @@ wobblywindowsEnabled=true
 
 
 [Windows]
+MaximizeButtonLeftClickCommand=Maximize
 RollOverDesktops=true
 TitlebarDoubleClickCommand=Maximize

@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=ArcDark
-Font=Noto Sans Mono,11,-1,5,50,0,0,0,0,0
+Font=Noto Sans Mono,10,-1,5,50,0,0,0,0,0
 
 [General]
 Name=arcolinux

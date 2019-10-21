@@ -11,8 +11,19 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.kicker
 
+[Containments][1][Applets][2][Configuration]
+PreloadWeight=100
+
+[Containments][1][Applets][2][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
 [Containments][1][Applets][2][Configuration][General]
+alphaSort=true
+customButtonImage=arco-calamares-logo
 favorites=firefox.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,pamac-manager.desktop,pamac-updater.desktop,systemsettings.desktop
+favoritesPortedToKAstats=true
+limitDepth=true
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
@@ -24,9 +35,15 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][1][Applets][3][Configuration]
+PreloadWeight=42
+
 [Containments][1][Applets][4]
 immutability=1
 plugin=org.kde.plasma.icontasks
+
+[Containments][1][Applets][4][Configuration]
+PreloadWeight=42
 
 [Containments][1][Applets][4][Configuration][General]
 launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin,file:///usr/share/applications/firefox.desktop?wmClass=firefox
@@ -35,13 +52,23 @@ launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][1][Applets][5][Configuration]
+PreloadWeight=42
+
 [Containments][1][Applets][6]
 immutability=1
 plugin=org.kde.plasma.trash
 
+[Containments][1][Applets][6][Configuration]
+PreloadWeight=42
+
 [Containments][1][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
+
+[Containments][1][Applets][7][Configuration]
+PreloadWeight=42
+SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
 formfactor=2
@@ -50,6 +77,12 @@ location=4
 [Containments][1][Applets][8]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][1][Applets][8][Configuration]
+PreloadWeight=42
+
+[Containments][1][Configuration]
+PreloadWeight=10
 
 [Containments][1][General]
 AppletOrder=2;3;4;5;6;7;8

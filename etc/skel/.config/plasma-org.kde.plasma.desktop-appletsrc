@@ -1,12 +1,3 @@
-[ActionPlugins][0]
-MidButton;NoModifier=org.kde.paste
-RightButton;NoModifier=org.kde.contextmenu
-wheel:Vertical;NoModifier=org.kde.switchdesktop
-
-[ActionPlugins][1]
-MidButton;NoModifier=org.kde.paste
-RightButton;NoModifier=org.kde.contextmenu
-
 [Containments][1]
 activityId=
 formfactor=2
@@ -18,10 +9,10 @@ wallpaperplugin=org.kde.image
 
 [Containments][1][Applets][2]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kicker
 
 [Containments][1][Applets][2][Configuration][General]
-favorites=firefox.desktop,qupzilla.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,libreoffice-writer.desktop,cantata.desktop,kde4-digikam.desktop,org.kde.konsole.desktop,pamac-manager.desktop,pamac-updater.desktop,systemsettings.desktop
+favorites=firefox.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,pamac-manager.desktop,pamac-updater.desktop,systemsettings.desktop
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
@@ -63,30 +54,5 @@ plugin=org.kde.plasma.digitalclock
 [Containments][1][General]
 AppletOrder=2;3;4;5;6;7;8
 
-[Containments][33]
-activityId=aadc2224-b656-435d-84d5-8595a19fff6c
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
 
-[Containments][33][Applets][34]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][33][Applets][34][Configuration]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
 

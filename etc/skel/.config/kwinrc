@@ -14,7 +14,6 @@ kwin4_effect_fadedesktopEnabled=true
 slideEnabled=false
 wobblywindowsEnabled=true
 
-
 [Windows]
 MaximizeButtonLeftClickCommand=Maximize
 RollOverDesktops=true

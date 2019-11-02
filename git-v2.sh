@@ -4,8 +4,6 @@
 echo "Checking for newer files online first"
 git pull
 
-#wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O etc/skel/.bashrc-latest
-
 # Below command will backup everything inside the project folder
 git add --all .
 
